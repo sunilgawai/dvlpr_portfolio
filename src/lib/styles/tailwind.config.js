@@ -1,3 +1,7 @@
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
+
 /*
  * Copyright (c) 2025. Jason Cameron
  * All Rights Reserved
